@@ -18,6 +18,6 @@ public class Task {
         System.out.println("Toplam: " + toplam);
         System.out.println("Toplam: " + a + b);   // concatanation (ekleme) yapti
         System.out.println("Toplam: " + (a + b)); // Parantez oldugu icin Airtmetik islem yapti.
-        
+
     }
 }
