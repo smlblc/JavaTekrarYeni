@@ -11,5 +11,8 @@ public class Task3 {
     // M.J.
     public static void main(String[] args) {
         String a = "Samil";
+        String b = "Balci";
+
+        System.out.println(a.charAt(0)+"."+b.charAt(0)+".");
     }
 }
