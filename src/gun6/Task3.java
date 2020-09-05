@@ -10,6 +10,6 @@ public class Task3 {
     // output:
     // M.J.
     public static void main(String[] args) {
-        
+        String a = "Samil";
     }
 }
