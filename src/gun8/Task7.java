@@ -20,5 +20,13 @@ public class Task7 {
         int binler=(x/1000)%10;
         int onbinler=(x/10000);
         System.out.println(onbinler+"\n"+binler+"\n"+yuzler+"\n"+onlar+"\n"+birler);
+
+       // Different Solution:
+        int input1 =12345;
+        String sayi=input1+"";
+        String [] t=sayi.split("");
+        for (String n:t) {
+            System.out.println(Integer.parseInt(n));
+        }
     }
 }
