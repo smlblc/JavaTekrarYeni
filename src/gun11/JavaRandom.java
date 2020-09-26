@@ -6,7 +6,7 @@ public class JavaRandom {
 
     public static void main(String[] args) {
         // Math.r1(); gives r1 number between 0.0 and 1.0
-        double r1 = Math.random();
+        double r1 = Math.random();    // Random classin sadece nextDouble ozelligini kullaniyor.
         //to get number between 0 - 10
         int r2 = (int) (r1 * 10);
         System.out.println( "r1 double: " + r1 );
