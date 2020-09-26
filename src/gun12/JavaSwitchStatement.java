@@ -41,4 +41,14 @@ public class JavaSwitchStatement {
 
     }
 
+    //A switch works with the byte , short , char , and int primitive data types.
+    // It also works with enumerated types (discussed in Enum Types), the String class,
+    // and a few special classes that wrap certain
+    // primitive types: Character , Byte , Short , and Integer (discussed in Numbers and Strings).
+
+    //Nerede if else nerede Switch kulllanmaliyim?
+
+    // if else icin en uygun boolean degerler
+
+    // Swith ile yukarda bahsedilen type lari kullanabiliriz.
 }
