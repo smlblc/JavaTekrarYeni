@@ -30,6 +30,13 @@ public class Task4 {
             System.out.println( "wrong" );
         }
 
+        //String date = "1111/2020";
+        //        int ind = date.indexOf("/");
+        //        String mounthStr = date.substring(0,ind);
+        //
+        //        int mount = Integer.parseInt(mounthStr);
+        //
+        //        System.out.println(mount);
     }
 
 }
