@@ -1,0 +1,11 @@
+***part1***
+create class Numbers
+create method named as "checkEvenNumber"
+which returns true if provided integer is even
+
+create class TestNumbers
+create method to check "checkEvenNumber"
+
+***part2***
+create method "evenNumbers" which will return all even number between 0 and 20
+also check it with @Test
