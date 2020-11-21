@@ -31,7 +31,8 @@ public class JavaJUnit {
 
     @Test
     public void testNull() {
-        Rectangle rect1 = new Rectangle(1,2);
+        Rectangle rect1 = new Rectangle();
+        Rectangle rect2= null;
 
         Assert.assertNotNull("Maybe you forget to initialize rect1", rect1);
 

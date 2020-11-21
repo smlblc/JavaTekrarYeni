@@ -17,8 +17,8 @@ public class Task1 {
 
         Bank bank4 = new Bank();
         bank4.name = "Halk Bank";
+        bank4.nonTrustworthyBank("Halk Bank", 000000);
         System.out.println("Bank4: " + bank4);
-
 
         Bank bank5 = new Bank(101010);
         System.out.println("Bank5: " + bank5);

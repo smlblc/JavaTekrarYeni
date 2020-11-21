@@ -1,4 +1,4 @@
-***part1***
+***part1*** OK
 create class Numbers
 create method named as "checkEvenNumber"
 which returns true if provided integer is even

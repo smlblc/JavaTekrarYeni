@@ -18,11 +18,11 @@ public class Bank {
 
     // Third
     public Bank(String name, int serial, boolean trustworthiness) {
-        this(name, serial);
+        this(name, serial); // 2. contractor`a refer ediyor. Bank(name,serial)
         this.trustworthiness = trustworthiness;
     }
 
-    // Four, please, don't do it like this
+    // Four, please, don't do it like this -- Bu sekilde YAPMAYALIM.
     public Bank(int serial) {
         this("Bank four", serial, false);
     }
