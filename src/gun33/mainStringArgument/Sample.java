@@ -8,8 +8,6 @@ public class Sample {
         for(String argument : args) {
             System.out.println(argument);
         }
-
     }
-
 
 }
