@@ -16,17 +16,24 @@ public class JavaLocalDateTime {
         LocalDateTime localDateTime2 = LocalDateTime.of(2021, 01, 01, 0, 0);//new year date for 2021
 
         int year = localDateTime.getYear();
+        System.out.println(year);
 
         Month month = localDateTime.getMonth();
+        System.out.println(month);
         int monthValue = localDateTime.getMonthValue();
+        System.out.println(monthValue);
 
         int dayOfYear = localDateTime.getDayOfYear();
+        System.out.println(dayOfYear);
         int dayOfMonth = localDateTime.getDayOfMonth();
+        System.out.println(dayOfMonth);
         DayOfWeek dayOfWeek = localDateTime.getDayOfWeek();
+        System.out.println(dayOfWeek);
 
         int hour = localDateTime.getHour();
         int minute = localDateTime.getMinute();
         int second = localDateTime.getSecond();
+        System.out.println("Hour: "+ hour + " Minute: "+ minute +" Second: " +second );
 
 
         System.out.println("Short DateTime: " + localDateTime.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT)));
