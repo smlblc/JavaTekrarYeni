@@ -11,10 +11,15 @@ public class StringToLocalDateAndTime {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM dd yyyy");
 
         LocalDate localDate = LocalDate.parse(strDate, formatter);
+        System.out.println(localDate);
 
+//        localTime = LocalTime.of(19, 00);
+//        System.out.println("hh:mm:ss a->" + localTime.format(DateTimeFormatter.ofPattern("hh:mm:ss a")));
 
-        String strTime = "12:49";
-        LocalTime localTime = LocalTime.parse(strTime);
+        String strTime = "11:49 PM";
+        DateTimeFormatter formatTime = DateTimeFormatter.ofPattern("hh:mm a");
+        LocalTime localTime = LocalTime.parse(strTime, formatTime);
+        System.out.println(localTime);
 
 
 
