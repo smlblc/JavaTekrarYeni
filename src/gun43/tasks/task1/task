@@ -1,0 +1,4 @@
+create parent class and at least two subclasses
+Vegetable: Tomato, Potato
+Vehicle: Car, Truck
+Engineer: ElectricEngineer, SDET
