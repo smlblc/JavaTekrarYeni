@@ -1,0 +1,2 @@
+create abstract class Food with abstract methods
+create 2 subclass of Food

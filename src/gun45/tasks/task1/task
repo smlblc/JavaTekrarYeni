@@ -1,0 +1,11 @@
+Design Zoo in Java
+
+Zoo - as main class where you execute everything
+
+Animal - is super class for all animals
+  Fish - is super class for all fish
+  Primate - is super class for all primate
+  Snake - is super class for all snake
+  Cat - is super class for all cats(Lion, tiger)
+    Lion
+    Tiger

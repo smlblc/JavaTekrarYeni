@@ -1,0 +1,14 @@
+create interface ReadFile with methods:
+open(), read(), save(), close()
+
+** Part 1**
+Add concrete classes as:
+1. TxtFile
+2. PowerPointFile
+3. DMGFile //Definition of: DMG. DMG. (Disk iMaGe) The file format used in the Mac for distributing software.
+4. EXEFile //EXE is a file extension for an executable file format in Windows OS
+
+** Part 2**
+create class Finder/Explorer with two static methods
+1. main(String[] args) - create multiple files
+2. workWithFile(ReadFile file) - call every methods in ReadFile

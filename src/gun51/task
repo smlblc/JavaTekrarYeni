@@ -1,0 +1,9 @@
+Design small part of bestbuy system
+create interface Device
+
+abstract class Laptop
+abstract class Phone
+abstract class Tablet
+abstract class TV
+
+create at least 3 concrete class for each category
